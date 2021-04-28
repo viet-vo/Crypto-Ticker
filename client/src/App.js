@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <header className="Title">CryptoTicker</header>
+      <input type="radio" value="sa" name="gender" /> Price
+      <input type="radio" value="sa" name="gender" /> Comparison
+      <input type="radio" value="sa" name="gender" /> Graph
     </div>
   );
 }
